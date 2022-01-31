@@ -21,7 +21,7 @@ Next I'm going to go through the simple approach on how to deal with missing val
 TO DO  
 Open questions:
 * How to approach the choice of missing values imputation algorithm? For example, can we choose the baseline classification algorithm, such as logistic regression, then train it with several imputation techniques and then select the best imputation algorithm, impute missing values, and try more advanced classifiers (like boosting methods) on the dataset with imputed values? Or we should somehow check all the combinations of imputation algorithms with classifiers? Or another approach?  
-
+* How to process imputed values in categorical features - round them, so the feature will remain categorical or treat it as continuous feature?
 
 Reference notebooks:
 * [Handling With Missing Data by Rob Mulla](https://www.kaggle.com/robikscube/handling-with-missing-data-youtube-stream/notebook)
